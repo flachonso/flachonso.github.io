@@ -34,4 +34,13 @@
         margin-bottom: 2em;
         background-image: url("/assets/forms-about-mobile.png");
     }
+
+    .profile-text {
+        align-items: center;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        text-align: center;
+    }
 }
