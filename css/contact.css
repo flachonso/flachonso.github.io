@@ -1,0 +1,19 @@
+.contact-info {
+    padding: 200px;
+    display: flex;
+    gap: 200px;
+}
+
+.contact-form {
+    width: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.contact-form > div {
+    display: flex;
+    flex-direction: column;
+}
