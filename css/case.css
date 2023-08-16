@@ -119,6 +119,26 @@ main {
     margin-bottom: 64px;
 }
 
+#p4 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+#monsters {
+    width: 50%;
+}
+
+#p5 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+#p6 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +171,10 @@ main {
 
     #card1 {
         width: auto;
+    }
+
+    #monsters {
+        width: 100%;
     }
 
 }
