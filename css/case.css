@@ -47,6 +47,7 @@ main {
 
 #edspresso-img {
     background-image: url("/assets/Mockups-Edspresso.png");
+    min-height: calc(50vh - 0px);
     
 }
 
@@ -207,7 +208,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 24px;
-        min-height: calc(50vh - 400px);
+        min-height: calc(50vh - 300px);
     }
     
 
@@ -234,5 +235,26 @@ main {
     #monsters {
         width: 100%;
     }
+
+    #edspresso-img {
+        background-image: url("/assets/Mockups-Edspresso.png");
+        min-height: calc(50vh - 80px);
+        
+    }
+    
+    #mobile-img {
+        background-image: url("/assets/mobile-case.png");
+    }
+    
+    #capstone-img {
+        background-image: url("/assets/Mockups-DailyGo.png");
+        min-height: calc(50vh - 80px);
+    }
+
+    #ndashboard-img {
+        background-image: url("/assets/neon-img.png");
+        min-height: calc(50vh - 80px);
+    }
+
 
 }

@@ -166,6 +166,25 @@ li {
     height: 150px;
 }
 
+.ending-case{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+}
+
+.ending-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ending-paragraph a {
+    justify-content: center;
+}
+
+
 @media only screen and (max-width: 600px) {
 h1 {
     font-size: 48px;
@@ -229,6 +248,8 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
+    margin-top: 64px;
 }
 
 .contact-info {
@@ -237,9 +258,27 @@ nav ul li {
 }
 
 .contact-img {
-    width: 100px;
-    height: 50%;
+    width: 80px;
+    height: 10%;
     place-content: center;
+}
+
+.ending-case{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+}
+
+.ending-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ending-paragraph a {
+    justify-content: center;
 }
 
 }
