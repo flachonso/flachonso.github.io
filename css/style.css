@@ -107,6 +107,12 @@ p {
     line-height: 30px;
 }
 
+li {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 16px;
+}
+
 .primary-button {
     outline: none;
     border: none;
@@ -117,6 +123,20 @@ p {
     font-size: 16px;
     font-family: var(--title-font-family);
     cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.inactive-button {
+    outline: none;
+    border: none;
+    border-radius: 124px;
+    padding: 16px 24px;
+    background-color: var(--gray-light);
+    color: var(--primary-medium);
+    font-size: 16px;
+    font-family: var(--title-font-family);
+    cursor:auto;
     margin-top: 24px;
     margin-bottom: 24px;
 }
